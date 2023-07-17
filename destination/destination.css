@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-image: url("/destination/background-destination-desktop.jpg");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.pages{
+    background-image: url("/destination/image\(1\).jpg");
+    height: 100px;
+    width: 800px;
+    margin-left: 48%;
+    position: absolute;
+    top: 60px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pages a{
+    text-decoration: none;
+}
+
+.home{
+    height: 20px;
+    width: 90px;
+    margin-top: 35px;
+}
+.destination{
+    height: 20px;
+    width: 140px;
+    margin-top: 35px;
+    margin-left: 20px;
+}

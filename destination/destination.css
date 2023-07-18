@@ -3,43 +3,57 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.main-container{
-    background-image: url("/destination/background-destination-desktop.jpg");
+body{
+    position: relative;
+}
+.bg-img{
+    height: 100vh;
     width: 100%;
-    height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+    background-image: url(/destination-img/background-destination-desktop.jpg);
 }
-
-.pages{
-    background-image: url("/destination/image\(1\).jpg");
-    height: 100px;
-    width: 800px;
-    margin-left: 48%;
+nav{
+    height: 96px;
+    width: 830px;
     position: absolute;
-    top: 60px;
+    top: 90px;
+    right: -80px;
+}
+
+ul li{
     list-style: none;
-    text-decoration: none;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
+    margin-left: 25px;
 }
 
-.pages a{
+ul li a{
     text-decoration: none;
+    color: #ffffffc2;
+    font-family: Barlow Condensed;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
 }
 
-.home{
-    height: 20px;
-    width: 90px;
-    margin-top: 35px;
+ul li a:hover {
+
+ color: rgb(117, 168, 255);
+
 }
-.destination{
-    height: 20px;
-    width: 140px;
-    margin-top: 35px;
-    margin-left: 20px;
+
+.blur-navi{
+    height: 96px;
+    width: 830px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background: rgba(255, 255, 255, 0.04);
+backdrop-filter: blur(40.774227142333984px);
+}
+
+.logo{
+    height: 150px;
+    width: 900px;
+    background-color: red;
 }

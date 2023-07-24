@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 .container {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-image: url(/destination/destination-img/background-destination-desktop.jpg);
   background-repeat: no-repeat;

@@ -201,7 +201,7 @@
   .moon {
     height: 1px;
     width: 39px;
-    background-color: white;
+    background-color: transparent;
   }
   .mars {
     height: 1px;
@@ -212,7 +212,7 @@
   .europa {
     height: 1px;
     width: 57px;
-    background-color: transparent;
+    background-color: white;
     margin-left: 37px;
   }
   .titan {

@@ -201,7 +201,7 @@
   .moon {
     height: 1px;
     width: 39px;
-    background-color: white;
+    background-color: transparent;
   }
   .mars {
     height: 1px;
@@ -218,7 +218,7 @@
   .titan {
     height: 1px;
     width: 40px;
-    background-color: transparent;
+    background-color: white;
     margin-left: 37px;
   }
   

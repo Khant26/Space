@@ -1,0 +1,155 @@
+body {
+  display: flex;
+  width: 1875.776px;
+  height: 1055px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+  background: url(../image/Bitmap.png), rgb(16, 10, 37);
+  mix-blend-mode: screen;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.logo {
+  margin-top: 24px;
+  margin-left: 39px;
+  padding: 0%;
+}
+
+.nav {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(40.774227142333984px);
+  width: 720px;
+  height: 96px;
+  flex-shrink: 0;
+  margin-top: 0;
+  margin-left: 806px;
+}
+
+.list-nav {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.362px;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Home {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+
+.Crew {
+  margin-top: 35px;
+  margin-left: 55px;
+}
+
+.Destination {
+  margin-top: 35px;
+  margin-left: 55px;
+}
+
+.Technology {
+  margin-top: 35px;
+  margin-left: 60px;
+}
+
+.head {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: -1550px;
+  margin-top: 160px;
+}
+
+.pageNum {
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.375px;
+  opacity: 0.25;
+}
+
+.meet {
+  margin-left: 20px;
+  color: #fff;
+  font-family: Barlow Condensed;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 3.375px;
+  text-transform: uppercase;
+}
+
+.contentBox {
+  width: 495px;
+  height: 260px;
+  flex-shrink: 0;
+  margin-top: 244px;
+  margin-left: 125px;
+}
+
+.com {
+  opacity: 0.25;
+  color: #fff;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.dou {
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: Bellefair;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.para {
+  margin-top: 10px;
+  color: #d0d6f9;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.circle {
+  width: 88px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-top: 480px;
+  margin-left: -295px;
+}
+
+.bodyImg {
+  width: 456.372px;
+  height: 572px;
+  flex-shrink: 0;
+  margin-top: 650px;
+  margin-left: -240px;
+}

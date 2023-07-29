@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    position: relative;
+  }
+  .container {
+    height: 120vh;
+    width: 100%;
+    background-image: url(/destination/destination-img/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .blur-navi {
+    width: 830px;
+    height: 96px;
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.774227142333984px);
+    position: absolute;
+    right: 0px;
+    top: 70px;
+  }
+  
+  .pages {
+    position: absolute;
+    right: 237px;
+    top: 110px;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li a {
+    color: #fff;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px;
+    text-decoration: none;
+    margin-left: 30px;
+    text-transform: uppercase;
+  }
+  ul li a:hover {
+    color: rgb(117, 168, 255);
+  }
+  .logo hr {
+    height: 1px;
+    width: 630px;
+    margin-left: 180px;
+    margin-top: -8.3rem;
+  }
+  .logo img {
+    margin: 100px 60px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .content-img {
+    height: 546px;
+    width: 546px;
+    background-color: transparent;
+    margin: 130px 100px;
+  }
+  
+  .content-box {
+    height: 450px;
+    width: 506px;
+    background-color: transparent;
+    margin: -630px 900px;
+  }
+  .box-heading h3,
+  p {
+    display: inline-block;
+    color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    margin-left: 30px;
+  }
+  
+  .box-heading img {
+    margin: 90px 90px;
+    height: 400px;
+    width: 400px;
+  }
+  .content-box h1 {
+    color: #fff;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 20px 0 20px 28px;
+  }
+  .content-box p {
+    color: #d0d6f9;
+    font-family: Barlow;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 177.778% */
+    text-align: justify;
+  }
+  .content-box hr {
+    margin: 20px 28px;
+    width: 475px;
+  }
+  .calculation {
+    display: flex;
+  }
+  .time p,
+  h3 {
+    display: inline-block;
+    color: white;
+  }
+  .distance p,
+  h3 {
+    display: inline-block;
+    color: white;
+  }
+  
+  .time p,
+  .distance p {
+    color: #d0d6f9;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+  }
+  .time h3,
+  .distance h3 {
+    color: #fff;
+    font-family: Bellefair;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .distance h3 {
+    margin: 15px 28px;
+  }
+  
+  .time h3 {
+    margin: 15px 30px;
+  }
+  
+  .time {
+    margin: 0 0 0 50px;
+  }
+  .mark1 {
+    height: 3px;
+    width: 476px;
+    background-color: transparent;
+    margin: 95px 113px;
+    display: flex;
+  }
+  .marker1 {
+    height: 1px;
+    width: 69px;
+    background-color: transparent;
+  }
+  .marker2 {
+    height: 1px;
+    width: 130px;
+    background-color: white;
+    margin-left: 38px;
+  }
+  .marker3 {
+    height: 1px;
+    width: 70px;
+    background-color: transparent;
+    margin-left: 38px;
+  }
+  .marker4 {
+    height: 1px;
+    width: 130px;
+    background-color: transparent;
+    margin-left: 38px;
+  }
+  
+  .mark2 {
+    height: 3px;
+    width: 300px;
+    background-color: transparent;
+    margin: 5px 30px;
+    display: flex;
+  }
+  
+  .moon {
+    height: 1px;
+    width: 39px;
+    background-color: transparent;
+  }
+  .mars {
+    height: 1px;
+    width: 37px;
+    background-color: transparent;
+    margin-left: 37px;
+  }
+  .europa {
+    height: 1px;
+    width: 57px;
+    background-color: transparent;
+    margin-left: 37px;
+  }
+  .titan {
+    height: 1px;
+    width: 40px;
+    background-color: white;
+    margin-left: 37px;
+  }
+  

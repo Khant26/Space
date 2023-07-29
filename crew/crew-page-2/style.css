@@ -32,7 +32,9 @@ body {
     margin-top: 119px;
     margin-left: 167px;
   }
-  
+  .destination a{
+    margin-left: 40px;
+  }
   .navBox {
     display: inline;
     width: 830px;

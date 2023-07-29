@@ -44,6 +44,10 @@ body {
     margin-left: 480px;
   }
   
+.destination a{
+  margin-left: 40px;
+}
+
   .listNav {
     padding: 0;
     display: flex;

@@ -72,7 +72,9 @@ body {
   line-height: normal;
   letter-spacing: 2.7px;
 }
-
+.destination a{
+    margin-left: 40px;
+}
 .h2 {
   color: #fff;
   font-family: Barlow Condensed;

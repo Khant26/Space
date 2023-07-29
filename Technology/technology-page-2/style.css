@@ -21,7 +21,11 @@ body {
     display: flex;
     flex-direction: row;
   }
-  
+  .destination a{
+    margin-left: 40px;
+  }
+
+
   .whiteLine {
     position: absolute;
     width: 473px;
